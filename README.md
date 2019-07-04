@@ -42,7 +42,7 @@ const setting = {
 * You can change the API_END_POINT if you need.
 
 ### BackEnd
-Refer : https://github.com/rajaabinesh/Node-Javasctipt-IDE-Backend-.git
+Refer : https://github.com/rajaabinesh/Node-Javasctipt-IDE-Backend-
 ### Run Application
 
 **`npm start`**
