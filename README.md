@@ -8,17 +8,19 @@ Also, the code should be posted using API and save it to DB.
 
 ### React Javascript IDE (Frontend)
 
-    Develop a react app that renders Javascript IDE and stores the code to DB through API and also fetch data from DB when the page is loaded. It shows the last saved data in the editor.
+I have developed a react app that renders Javascript IDE and stores the code to the DB through API and also fetch the saved code from DB when the page is loaded. It also shows the last saved data in the editor.
     
-### Validating done
-* Check empty data
-* Check existing data
+### Validation done
+* Created a validation for ensuring empty code.
+* Enabled the post call on submit action only when the code is updated or modified.
 
-### Installing
+### Installation 
 `npm install`
+
 ## Functionality
-* Clear - Clear the content in the editor.
-* Submit - Make post call to store the data to DB. This button disabled when the editor is empty and the value was unchanged.
+* Clear button - It helps to clear the content in the editor.
+* Submit button -It triggers a post call to store the data to DB and this button is disabled when the editor is empty with the value remains unchanged.
+
 ### Prerequisites
     NPX v6.2
     Node v10.8.0
@@ -46,7 +48,7 @@ Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.
-You will also see any lint errors in the console.
+You will also see any errors in the console.
 
 
 
