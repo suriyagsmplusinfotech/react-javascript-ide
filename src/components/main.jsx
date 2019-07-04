@@ -5,7 +5,7 @@
 
 */
 
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 
 //It creates an instance of the Ace Editor.
 
@@ -31,7 +31,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import api from '../config/config'
 
 
-class Main extends PureComponent {
+class Main extends Component {
 
     state = {
         editorValue: '',
